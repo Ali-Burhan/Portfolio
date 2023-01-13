@@ -1,7 +1,7 @@
 import styles from '../styles/NavbarFooter.module.css';
 import { userinfo } from '../Constants/userinfo'
 import Link from 'next/link'
-
+// nextjs-portfolio-template
 const Footer = ({ currentTheme }) => {
     return (
         <div className={styles.footermain} style={{ backgroundColor: currentTheme.footerColor, color: currentTheme.subtext }}>
@@ -26,8 +26,6 @@ const Footer = ({ currentTheme }) => {
                     <Link href='/contact'><a><li>Contact</li></a></Link>
                 </ul>
             </div>
-            <hr style={{ height: '1px', backgroundColor: currentTheme.subtext, border: 'none', opacity: '0.5' }}></hr>
-            <h2 className={styles.footercontent}>Template by Asavari Ambavane</h2>
         </div>
     )
 }

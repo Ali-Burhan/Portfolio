@@ -7,13 +7,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 import { userinfo, ctaTexts, headings } from '../Constants/userinfo'
 import Education from './Education'
+import Animation from './Animation'
 
 const HomePage = ({ currentTheme }) => {
     return (
         <div>
             <div className={styles.homeheading} style={{ backgroundColor: currentTheme.secondary }}>
-                <h1 className={styles.heading}>{userinfo.greeting.title}</h1>
-                <h2 className={styles.subheading} style={{ color: currentTheme.subtext }}>{userinfo.greeting.subtitle}</h2>
+                <h1 className={styles.heading}>HEY! THERE</h1>
+                <h2 className={styles.subheading} style={{ color: currentTheme.subtext }}> <Animation text={userinfo.greeting.subtitle}/> {}</h2>
                 <Link href="#work"><a className={styles.cta1} style={{ backgroundColor: currentTheme.accent, color: currentTheme.contrastText, boxShadow: currentTheme.boxShadow }}>{ctaTexts.landingCTA}</a></Link>
             </div>
             <div className={styles.homeWorkSection} id="work">
