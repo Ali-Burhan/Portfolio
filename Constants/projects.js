@@ -15,14 +15,6 @@ export const projects = [
     //leave the githublink field blank if it is a private repo or doent exist, alerts will take care of it
     //leave the projectlink field blank if it the project has not been deployed, alerts will take care of it
     {
-        name: 'Fams Food', //project name
-        description: 'I have created a website for a food company that deals with the rice field. Enjoyed being working with that project but that was a basic project to start with.', //project description
-        githubLink: '', //github repo link
-        projectLink: 'https://www.famfood.com', //deployed project link
-        tech: ['Wordpress', 'Plugins', 'Elementor'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
-        photo: [PROJECT1_1, PROJECT1_2, PROJECT1_3], //list of names of images from above imports.
-    },
-    {
         name: 'React Todo',
         description: 'Yes! That is a basic project or you can say the beginners guide but that was cool experience learning with react.',
         githubLink: 'https://github.com/Ali-Burhan/ReactNavbar/tree/master',
@@ -38,4 +30,12 @@ export const projects = [
         tech: ['React', 'Tailwind'],
         photo: [PROJECT3_1, PROJECT3_2, PROJECT3_3],
     },
+    // {
+    //     name: 'Fams Food', //project name
+    //     description: 'I have created a website for a food company that deals with the rice field. Enjoyed being working with that project but that was a basic project to start with.', //project description
+    //     githubLink: '', //github repo link
+    //     projectLink: 'https://www.famfood.com', //deployed project link
+    //     tech: ['Wordpress', 'Plugins', 'Elementor'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
+    //     photo: [PROJECT1_1, PROJECT1_2, PROJECT1_3], //list of names of images from above imports.
+    // },
 ]
